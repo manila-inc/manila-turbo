@@ -1,5 +1,5 @@
 {
-  "name": "@acme/expo",
+  "name": "@manila/expo",
   "version": "0.1.0",
   "main": "index.ts",
   "scripts": {
@@ -32,8 +32,8 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@acme/api": "*",
-    "@acme/tailwind-config": "*",
+    "@manila/api": "*",
+    "@manila/tailwind-config": "*",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
