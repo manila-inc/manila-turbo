@@ -9,6 +9,7 @@
     "build": "pnpm with-env turbo build",
     "clean": "rm -rf node_modules",
     "clean:workspaces": "turbo clean",
+    "db:init-local": "sh compose.sh && pnpm db:push",
     "db:generate": "pnpm with-env turbo db:generate",
     "db:push": "pnpm with-env turbo db:push db:generate",
     "dev": "pnpm with-env turbo dev --parallel",
