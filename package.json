@@ -18,7 +18,7 @@
     "lint:fix": "turbo lint:fix && manypkg fix",
     "type-check": "turbo type-check",
     "with-env": "dotenv -e .env --",
-    "prepare": "husky install"
+    "prepare-husky": "husky install"
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.1",

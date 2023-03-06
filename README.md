@@ -15,6 +15,15 @@ cp .env.example .env
 
 # Initialize local db cluster and push db schema.
 pnpm db:init-local # running this twice will error out, so don't do da.
+
+## temporary add a pre commit, all secrete boys....㊙️㊙️㊙️
+pnpm prepare-husky
+
+# to do add test, and pre commit with lint, type check and code testing
 ```
 
 Yup, that's it for now, should have more instructions in the later commits. 👋👋
+
+```
+
+```
